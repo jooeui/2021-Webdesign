@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>Green 복지재단</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script>
+    <script src="script/script.js" defer type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top clearfix">
+            <div class="logo"><a href="#"><img src="images/logo.png" alt="로고"></a></div>
+            <nav class="menu">
+                <ul class="navi">
+                    <li><a href="#">재단소개</a>
+                        <ul class="submenu">
+                            <li><a href="#">설립취지</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">후원하기</a>
+                        <ul class="submenu">
+                            <li><a href="#">국내후원</a></li>
+                            <li><a href="#">국외후원</a></li>
+                            <li><a href="#">맞춤후원</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">자료실</a>
+                        <ul class="submenu">
+                            <li><a href="#">서식자료실</a></li>
+                            <li><a href="#">사진자료실</a></li>
+                            <li><a href="#">후원양식</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">스토리</a>
+                        <ul class="submenu">
+                            <li><a href="#">웹진</a></li>
+                            <li><a href="#">보고서</a></li>
+                            <li><a href="#">나의 후원</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrap">
+        <div class="imgslide">
+            <div class="slideList">
+                <a href="#">
+                    <img src="images/slide01.jpg" alt="이미지1">
+                    <span class="imgtext">이미지 슬라이드 텍스트 1</span>
+                </a>
+                <a href="#">
+                    <img src="images/slide02.jpg" alt="이미지2">
+                    <span class="imgtext">이미지 슬라이드 텍스트 2</span>
+                </a>
+                <a href="#">
+                    <img src="images/slide03.jpg" alt="이미지3">
+                    <span class="imgtext">이미지 슬라이드 텍스트 3</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="contents clearfix">
+            <div class="notice"><a href="#" class="tab">공지사항</a>
+                <ul>
+                    <li><a href="#"><span class="nTitle">공지사항1 입니다. 클릭 시 내용 확인 가능합니다.</span>
+                            <span class="nDate">2021.04.11</span></a></li>
+                    <li><a href="#"><span class="nTitle">공지사항2</span>
+                            <span class="nDate">2021.04.11</span></a></li>
+                    <li><a href="#"><span class="nTitle">공지사항3</span>
+                            <span class="nDate">2021.04.11</span></a></li>
+                    <li><a href="#"><span class="nTitle">공지사항4</span>
+                            <span class="nDate">2021.04.11</span></a></li>
+                </ul>
+            </div>
+            <div class="gallery"><a href="#" class="tab">갤러리</a>
+                <ul>
+                    <li><a href="#"><img src="images/gallery01.jpg" alt="갤러리1"></a></li>
+                    <li><a href="#"><img src="images/gallery02.jpg" alt="갤러리2"></a></li>
+                    <li><a href="#"><img src="images/gallery03.jpg" alt="갤러리3"></a></li>
+                </ul>
+            </div>
+            <div class="banner">
+                <a href="#"><img src="images/banner.jpg" alt="배너"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="clearfix">
+        <div class="bt_logo"><a href="#"><img src="images/btlogo.png" alt="하단로고"></a></div>
+        <div class="copy">COPYRIGHTⓒ by WEBDESIGN. ALL RIGHTS RESERVED</div>
+        <div class="family">
+            <select class="siteList">
+                <option value="#">패밀리사이트1</option>
+                <option value="#">패밀리사이트2</option>
+                <option value="#">패밀리사이트3</option>
+                <option value="#">패밀리사이트4</option>
+            </select>
+        </div>
+    </footer>
+    
+    <div id="modal">
+        <div class="popup">
+            <div class="upTitle">공지사항1 입니다. 클릭 시 내용 확인 가능합니다.</div>
+            <div class="upBody">
+                텍스트 자르기<br/>
+                display: inline-block;<br/>
+                white-space: nowrap;<br/>
+                overflow: hidden;<br/>
+                text-overflow: ellipsis;
+            </div>
+            <div class="cancleBtn"><a href="#">닫기</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
