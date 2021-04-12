@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+* { margin: 0 auto; padding: 0; list-style: none; font-family: "맑은 고딕"; color: #333333; }
+body { width: 1200px; background-color: #ffffff; font-size: 20px; }
+a { display: block; text-decoration: none; }
+.clearfix::before, .clearfix::after { display: block; content: ''; clear: both; }
+
+
+header {
+    width: 1200px;
+    height: 100px;
+}
+.top {
+    position: relative;
+}
+.logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+.logo a {
+    width: 250px;
+    height: 50px;
+    margin: 25px 0;
+}
+.logo img {
+    width: 250px;
+    height: 50px;
+}
+
+.menu {
+    float: right;
+    width: 950px;
+    height: 100px;
+}
+.navi {
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+.navi>li {
+    float: left;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.navi>li>a {
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2369c0;
+    color: #ffffff;
+}
+.navi>li:hover>a {
+    background-color: #64a5f6;
+}
+.submenu {
+    position: relative;
+    display: none;
+    z-index: 1;
+}
+.submenu>li>a {
+    height: 50px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+.submenu>li:hover>a {
+    color: #2369c0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+}
+.imgslide {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+}
+.imgslide a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 300px;
+}
+.imgslide img {
+    width: 1200px;
+    height: 300px;
+}
+.imgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255,255,255,0.5);
+    padding: 7px 60px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contents {
+    position: relative;
+}
+.tabmenu {
+    float: left;
+    position: relative;
+    width: 490px;
+    height: 180px;
+    margin: 10px;
+    margin-left: 0;
+}
+.tabmenu>li {
+    float: left;
+    line-height: 30px;
+}
+.tabmenu>li:last-child {
+    width: 398px;
+    height: 29px;
+    border-bottom: 1px solid #dddddd;
+}
+.tabmenu>li>a {
+    width: 90px;
+    height: 29px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #bbbbbb;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+.tabmenu>li:last-child a {
+    margin-left: 0;
+    border-left: none;
+}
+.tabmenu div {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 488px;
+    height: 149px;
+    background-color: #ffffff;
+    z-index: 1;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+.tabmenu>li.active>a {
+    background-color: #ffffff;
+    font-weight: bold;
+    border-top: 1px solid #dddddd;
+}
+.tabmenu>li.active div {
+    display: block;
+}
+.tabmenu>li:not(.active)>a:hover {
+    background-color: #64a5f6;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.notice li {
+    line-height: 30px;
+    margin: 3px 15px;
+}
+.notice li>a {
+    height: 30px;
+    font-size: 13px;
+    border-bottom: 1px solid #dddddd;
+}
+.notice li>a:hover {
+    font-weight: bold;
+}
+.nTitle {
+    float: left;
+    width: 300px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+.nDate {
+    float: right;
+    margin-right: 5px;
+}
+
+.gallery {
+    text-align: center;
+}
+.gallery li {
+    display: inline-block;
+    margin: 10px;
+}
+.gallery a, .gallery img {
+    width: 120px;
+    height: 120px;
+}
+
+.banner {
+    position: relative;
+    float: left;
+    width: 340px;
+    height: 180px;
+    margin: 10px 5px;
+}
+.banner img {
+    width: 340px;
+    height: 180px;
+}
+.bntext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner:hover img {
+    opacity: 0.9;
+}
+.banner:hover .bntext {
+    background-color: rgba(0,0,0,0.7);
+}
+.shortcut {
+    float: right;
+    position: relative;
+    width: 340px;
+    height: 180px;
+    margin: 10px 5px;
+    margin-right: 0;
+}
+.shortcut img {
+    width: 340px;
+    height: 180px;
+}
+.sctext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.shortcut:hover img {
+    opacity: 0.9;
+}
+.shortcut:hover .sctext {
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+footer {
+    position: relative;
+    background-color: #2369c0;
+    text-align: center;
+}
+.btlogo {
+    float: left;
+    width: 300px;
+    height: 100px;
+}
+.btlogo a {
+    width: 200px;
+    height: 40px;
+    margin: 30px 50px;
+}
+
+.btRight {
+    float: right;
+    width: 900px;
+    height: 100px;
+}
+.btmenu {
+    width: 900px;
+    height: 50px;
+}
+.btmenu li {
+    display: inline-block;
+}
+.btmenu li>a {
+    margin: 20px 30px 0;
+    height: 20px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.copy {
+    width: 900px;
+    height: 50px;
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 32%;
+    width: 480px;
+    height: 280px;
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    z-index: 1;
+    padding: 20px 10px;
+    line-height: 30px;
+}
+.upTitle {
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 5px;
+    border-bottom: 1px solid #dddddd;
+}
+.upBody {
+    font-size: 14px;
+    padding: 8px;
+    text-align: justify;
+}
+.cancleBtn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.cancleBtn a {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.cancleBtn:hover {
+    background-color: #64a5f6;
+}
+.cancleBtn:hover>a {
+    color: #ffffff;
+}
