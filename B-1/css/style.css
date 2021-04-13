@@ -1,20 +1,21 @@
 @charset "utf-8";
 
 * { margin: 0 auto; padding: 0; list-style: none; font-family: "맑은 고딕"; color: #333333; }
-body { width: 1200px; background-color: #ffffff; font-size: 16px; }
+body { background-color: #ffffff; font-size: 16px; }
 a { display: block; text-decoration: none; }
 
 .clearfix::before, .clearfix::after { display: block; content: ''; clear: both; }
 
 
 header {
-    width: 1200px;
-    height: 100px;
+    width: 100%;
+    height: 99px;
+    border-bottom: 1px solid #dddddd;
 }
 .top {
     position: relative;
-    height: 98px;
-    border-bottom: 2px solid #dddddd;
+    width: 1200px;
+    height: 99px;
 }
 .logo {
     float: left;
@@ -29,7 +30,7 @@ header {
 
 .menu {
     float: right;
-    width: 950px;
+    width: 800px;
     height: 100px;
 }
 .navi {
@@ -224,10 +225,13 @@ header {
 
 footer {
     position: relative;
-    width: 1200px;
+    width: 100%;
     height: 100px;
     background-color: #eeeeee;
     text-align: center;
+}
+.ftwrap {
+    width: 1200px;
 }
 .btlogo {
     float: left;
