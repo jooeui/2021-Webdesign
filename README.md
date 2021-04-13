@@ -2,11 +2,11 @@
 
 A-1. JUST 쇼핑몰	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-1.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-1/)
 
-A-2. Green 복지재단	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-2.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-2/index.html)
+A-2. Green 복지재단	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-2.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-2/)
 
-A-3. 강원천문대	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-3.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-3/index.html)
+A-3. 강원천문대	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-3.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-3/)
 
-A-4. 유진건설	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-4.pdf)
+A-4. 유진건설	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A-4.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/A-4/)
 
 
 
