@@ -16,7 +16,7 @@ A-4. 유진건설	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/A
 
 B-1. 대한은행	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/B-1.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/B-1/)
 
-B-2. 대한투어	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/B-2.pdf)
+B-2. 대한투어	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/B-2.pdf)	[LINK](https://jooeui.github.io/2021-Webdesign/B-2/)
 
 B-3. 세계의 미술작품	[PDF](https://github.com/jooeui/2021-Webdesign/blob/eui/open/B-3.pdf)
 
