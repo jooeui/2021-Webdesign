@@ -13,4 +13,12 @@ $(document).ready(function(){
             .next('a').fadeIn()
             .end().appendTo('.imgslide');
     }, 3000);
+    
+    /* 모달 레이어 팝업창 */
+    $('.notice a:first').click(function(){
+        $('#modal').show();
+    })
+    $('.popup>.btn').click(function(){
+        $('#modal').hide();
+    })
 })
