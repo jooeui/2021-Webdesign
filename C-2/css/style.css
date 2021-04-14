@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* reset */
+* { margin: 0; padding: 0; list-style: none; font-family: "맑은 고딕"; color: #333333; }
+body { background-color: #ffffff; font-size: 16px; }
+a { display: block; text-decoration: none; }
+
+/* wrap - header, bodywrap */
+.wrap {
+    width: 1000px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* header - logo, menu */
+header {
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+/* 로고 */
+.logo {
+    width: 200px;
+    height: 40px;
+    padding: 40px 0;
+}
+
+/* 메뉴 */
+.menu {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.navi {
+    width: 90%;
+    margin: 0 5%;
+}
+.navi>li {
+    width: 100%;
+}
+.navi>li>a {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-weight: bold;
+    border-top: 1px solid #555555;
+}
+.navi>li:hover>a {
+    background-color: #fa364a;
+}
+
+.submenu {
+    display: none;
+}
+.submenu>li {
+    width: 100%;
+}
+.submenu>li>a {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+.submenu>li:hover>a {
+    color: #266141;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* bodywrap - imgslide, contents, footer */
+.bodywrap {
+    position: relative;
+    float: right;
+    width: 790px;
+}
+
+/* 이미지 슬라이드 */
+.imgslide {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.imgslide a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.imgslide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 10px 0;
+    width: 40%;
+    text-align: center;
+}
+
+/* contents - notice, gallery, shortcut */
+.contents {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.contents > div { position: relative; margin: 10px 0; border: 1px solid #dddddd; }
+.contents > div:nth-of-type(1) { width: 40%; margin-right: 5px;} /* notice 구역 */
+.contents > div:nth-of-type(2) { width: 40%; margin-right: 5px; } /* gallery 구역 */
+.contents > div:nth-last-of-type(1) { width: 20%; border: none; } /* shortcut 구역 */
+.contents h4 { 
+    height: 29px; 
+    line-height: 30px; 
+    border-bottom: 1px solid #cccccc;
+    margin: 5px 2px 0;
+    padding: 0 5px;
+}
+/* 공지사항 */
+.notice ul {
+    height: 145px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.notice li {
+    font-size: 13px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+}
+.notice li:nth-child(2n) {
+    background-color: rgba(250, 54, 74, 0.55);
+}
+.notice span {
+    float: right;
+}
+.notice li:hover {
+    font-weight: bold;
+}
+
+/* 갤러리 */
+.gallery ul {
+    height: 145px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallery img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+/* 바로가기 */
+.shortcut a {
+    width: 100%;
+    height: 100%;
+}
+.shortcut img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sctext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 7px 0;
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* footer - copy, ftsite(sns, family) */
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+footer > div:nth-of-type(1) { width: 65%; }
+footer > div:nth-of-type(2) { width: 35%; }
+
+/* Copyright */
+.copy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* ftsite - sns, family */
+.ftsite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 12px 20px;
+}
+
+/* sns */
+.sns {
+    padding: 5px 20px;
+}
+.sns ul {
+    display: flex;
+    justify-content: space-around;
+}
+.sns img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+/* family */
+.family {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.family select {
+    padding: 2px 10px;
+}
